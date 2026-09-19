@@ -1,7 +1,7 @@
- streamlit
-   sentence-transformers
-   faiss-cpu
-   langchain-community
-   langchain-huggingface
-   langchain-text-splitters
-   langchain-groq
+streamlit
+sentence-transformers
+faiss-cpu
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langchain-groq
