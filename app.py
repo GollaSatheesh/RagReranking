@@ -13,7 +13,7 @@ if "GROQ_API_KEY" not in st.secrets:
     st.error("GROQ_API_KEY is missing. Add it in the app's Settings -> Secrets.")
     st.stop()
 
-llm = ChatGroq(model="llama-3.3-70b-versatile", api_key=st.secrets["GROQ_API_KEY"])
+   llm = ChatGroq(model="openai/gpt-oss-120b", api_key=st.secrets["GROQ_API_KEY"])
 
 
 @st.cache_resource(show_spinner="Loading documents and models...")
