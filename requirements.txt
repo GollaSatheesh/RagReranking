@@ -1,8 +1,7 @@
-sentence-transformers
-faiss-cpu
-langchain
-langchain-huggingface
-langchain-text-splitters
-streamlit
-langchain-community
-langchain-ollama
+ streamlit
+   sentence-transformers
+   faiss-cpu
+   langchain-community
+   langchain-huggingface
+   langchain-text-splitters
+   langchain-groq
